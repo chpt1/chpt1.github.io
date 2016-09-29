@@ -1,5 +1,5 @@
 .articleContainer{
-	margin: 50px 0px 30px 0px;
+	margin: 40px 0px 30px 0px;
 }
 
 #ccright{
@@ -9,4 +9,20 @@
 
 #sidebarlist{
 	margin: 50px 0px 0px 0px !important;
+}
+
+#counterwrapper{
+	display: none;
+}
+
+#background-article1{
+	background-color: white;
+}
+
+#innerC{
+	color: black;
+}
+
+.header2{
+	margin: 20px 0px 0px 0px;
 }

@@ -1164,7 +1164,7 @@
 
 	p {
 		text-align: justify;
-		margin-bottom: 2em;
+/*		margin-bottom: 2em;*/
 	}
 
 	ul, ol, dl, table, blockquote {
@@ -1270,7 +1270,7 @@
 			}
 
 	ul.actions {
-		margin-top: 2.5em;
+/*		margin-top: 2.5em;*/
 		clear: both;
 	}
 
@@ -1773,7 +1773,7 @@
 			h3 {
 				font-size: 1em;
 				letter-spacing: 2px;
-				margin: 0 0 1.25em 0;
+				margin: 0 0 .5em 0;
 			}
 
 		/* Table */
