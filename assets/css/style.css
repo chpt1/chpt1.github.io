@@ -3,12 +3,14 @@
 }
 
 #ccright{
-		margin: 1em;
+/*		margin: 1em;*/
 		text-align: center;
 }
 
-#sidebarlist{
-	margin: 50px 0px 0px 0px !important;
+@media screen and (min-width: 737px) {
+	#sidebarlist{
+		margin: 50px 0px 0px 0px !important;
+	}
 }
 
 #counterwrapper{
@@ -17,6 +19,7 @@
 
 #background-article1{
 	background-color: white;
+	line-height: 1.2em;
 }
 
 #innerC{
@@ -25,4 +28,31 @@
 
 .header2{
 	margin: 20px 0px 0px 0px;
+}
+
+.headshot_desc{
+	display: block;
+	width: 120px;
+	margin: 0 0 2em 0;
+	float: left;
+}
+
+.imgContainer{
+	display: inline-block;
+	width: 100%;
+}
+
+ol{
+	margin:0em 0em 0em 2em;
+}
+
+.picdesc{
+    font-style: italic;
+    font-size: .8em;
+    display: block;
+    width: 300px;
+    margin: 0px 15px 0px 15px;
+    float: left;
+    line-height: 1.2em;
+    color: black;
 }
