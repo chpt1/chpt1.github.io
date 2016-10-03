@@ -30,10 +30,11 @@
 	margin: 20px 0px 0px 0px;
 }
 
+
 .headshot_desc{
 	display: block;
 	width: 120px;
-	margin: 0 0 2em 0;
+	margin: 0 15px 2em 0;
 	float: left;
 }
 
@@ -45,14 +46,35 @@
 ol{
 	margin:0em 0em 0em 2em;
 }
-
-.picdesc{
-    font-style: italic;
-    font-size: .8em;
-    display: block;
-    width: 300px;
-    margin: 0px 15px 0px 15px;
-    float: left;
-    line-height: 1.2em;
-    color: black;
+@media screen and (min-width: 737px) {
+	.headshot_desc{
+		display: block;
+		width: 120px;
+		margin: 0 0 2em 0;
+		float: left;
+	}
+	.picdesc{
+	    font-style: italic;
+	    font-size: .8em;
+	    display: block;
+	    width: 300px;
+	    float: left;
+	    line-height: 1.2em;
+	    color: black;
+	}
 }
+
+#pd1{
+	font-style: italic;
+	font-size: .8em;
+	color: black;
+	margin: 0px 15px 45px 15px;
+}
+
+#pd2{
+	font-style: italic;
+	font-size: .8em;
+	color: black;
+	margin: 0px 15px 15px 15px;
+}
+
