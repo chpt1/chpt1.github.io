@@ -78,3 +78,6 @@ ol{
 	margin: 0px 15px 15px 15px;
 }
 
+#sidebarlist{
+	list-style: none !important;
+}
