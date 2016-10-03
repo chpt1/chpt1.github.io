@@ -10,6 +10,7 @@
 @media screen and (min-width: 737px) {
 	#sidebarlist{
 		margin: 50px 0px 0px 0px !important;
+		list-style: none !important;
 	}
 }
 
@@ -78,6 +79,3 @@ ol{
 	margin: 0px 15px 15px 15px;
 }
 
-#sidebarlist{
-	list-style: none !important;
-}
