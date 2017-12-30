@@ -1168,7 +1168,7 @@
 	}
 
 	ul, ol, dl, table, blockquote {
-		margin: 1em 0 1em 0;
+		margin: 1em 0 1em 2em;
 	}
 
 	br.clear {
